@@ -70,6 +70,7 @@ nav li a {
 
 .banner img{
     width: 100%;
+    margin-top: 20px;
 
 }
 
@@ -84,7 +85,28 @@ nav li a {
     nav 
     {
         flex-direction: column;
-        
+
     }
     
 }
+
+/* tablet or medium devices */
+ @media screen and (min-width:576px) and (max-width :960px) {
+
+ header
+ {
+    padding: 50px;
+
+
+ }
+ 
+ 
+    nav
+    {
+        flex-direction: column;
+
+    }
+
+
+    
+ }
