@@ -185,7 +185,8 @@ nav li a {
         padding: 20px;
 
     }
-    nav 
+    nav ,
+    .facts-card-container
     {
         flex-direction: column;
 
@@ -201,10 +202,16 @@ nav li a {
 
     }
 
-    .teams-content
+    .teams-content,
+    .facts-card-container
  {
     padding-left: 40ppx;
     padding-right: 40px;
+
+ }
+ .facts-card-container
+ {
+    gap: 20px;
 
  }
     
