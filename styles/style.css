@@ -9,6 +9,12 @@
 {
     color: #727272;
 }
+.section-title {
+    font-size: 3rem;
+    font-weight: 700;
+    color: #131313;
+
+}
 .btn-primary
 {
     border-radius: 8px;
@@ -56,13 +62,6 @@ nav li a {
 
     text-decoration: none;
 
-
-}
-
-.nav-title {
-    font-size: 3rem;
-    font-weight: 700;
-    color: #131313;
 
 }
 
@@ -130,6 +129,7 @@ nav li a {
 
 
  }
+ 
 
 .teams-title .text-features
  {
@@ -137,6 +137,42 @@ nav li a {
     font-weight: 700;
 
  }
+
+ /* facts section */
+.facts-card-container .card
+{
+    border-radius: 8px;
+    border: 1px solid #FF900E;
+    text-align: center;
+    padding:30px;
+
+}
+
+.facts-card-container .card-title
+{
+    font-weight: 600;
+    font-size:1.25rem;
+    margin-top: 5px;
+
+
+}
+.facts-card-container
+{
+    display: flex;
+    justify-content: space-around;
+ 
+
+}
+
+.facts-card-container .card-stats
+{
+    font-size: 2.8rem;
+    color: #424242;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+    
+}
 
 
 
@@ -173,6 +209,10 @@ nav li a {
  }
     
 }
+
+
+
+
 
 /* tablet or medium devices */
  @media screen and (min-width:576px) and (max-width :960px) {
